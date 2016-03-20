@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_normal_map"
+        android:orderInCategory="100"
+        android:title="@string/normal_map_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_satellite_map"
+        android:orderInCategory="100"
+        android:title="@string/satellite_map_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_night_map"
+        android:orderInCategory="100"
+        android:title="@string/night_map_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/location_type_locate"
+        android:orderInCategory="100"
+        android:title="@string/location_type_locate_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/location_type_map_follow"
+        android:orderInCategory="100"
+        android:title="@string/location_type_map_follow_text"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/location_type_map_rotate"
+        android:orderInCategory="100"
+        android:title="@string/location_type_map_rotate_text"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingEnd="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingStart="10dp">
+
+    <LinearLayout
+        android:id="@+id/position_bt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="7dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/layout_for_list_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/search_position_icon_bg"
+            android:gravity="center"
+            android:text="@string/main_search_position_icon_text"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/main_search_dash_line"
+            android:layerType="software" />
+
+        <TextView
+            android:id="@+id/main_search_position_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="济南 市辖区"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@drawable/main_search_dash_line"
+            android:layerType="software" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layerType="software"
+            android:scaleType="fitCenter"
+            android:src="@drawable/main_search_right_icon" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/main_search_listView"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:background="@drawable/layout_for_list_bg"
+        android:divider="#dcdcdc"
+        android:dividerHeight="1dp"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:paddingRight="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/main_search_sure_bt"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:background="@drawable/main_search_sure_bt_bg"
+        android:text="@string/main_search_sure_bt_text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

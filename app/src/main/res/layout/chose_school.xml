@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="105dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/chose_school_bg"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/my_school_editText"
+        android:layout_width="match_parent"
+        android:background="@drawable/chose_school_edit_bg"
+        android:hint="请输入学校名称"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/my_school_name_sure_bt"
+        android:layout_width="match_parent"
+        android:background="@drawable/chose_school_name_sure_bt_bg"
+        android:text="确  定"
+        android:textSize="25sp"
+        android:textColor="@color/login_bg"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>

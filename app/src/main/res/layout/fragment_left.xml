@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bestcode95.educationaknow.utils.view.SlideShowView
+        android:id="@+id/slide_show_view"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:padding="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/left_button1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fragment_left_button1_bg" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/fragment_left_label_bg"
+                android:gravity="center"
+                android:text="就 餐"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@color/fragment_left_bt_txt_bg"
+                android:gravity="center"
+                android:text="一日三餐，均衡营养，合理搭配荤素帮助孩子全面成长"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/left_button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fragment_left_button2_bg" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/fragment_left_label_bg"
+                android:gravity="center"
+                android:text="午餐休息"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@color/fragment_left_bt_txt_bg"
+                android:gravity="center"
+                android:text="中午上班没时间，小饭桌帮你照顾孩子，午休就餐全方位提供"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/left_button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fragment_left_button3_bg" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/fragment_left_label_bg"
+                android:gravity="center"
+                android:text="课后休息"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@color/fragment_left_bt_txt_bg"
+                android:gravity="center"
+                android:text="名师课后辅导，让孩子课下有事可做，赢在起跑线上"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/left_button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fragment_left_button4_bg" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/fragment_left_label_bg"
+                android:gravity="center"
+                android:text="综合区"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@color/fragment_left_bt_txt_bg"
+                android:gravity="center"
+                android:text="校外活动，育儿经验，优惠折扣三位一体。满足您的多种育儿需求。"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

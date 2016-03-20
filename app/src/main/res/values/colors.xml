@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="login_bg">#edae39</color>
+    <color name="login_l_normal">#f29119</color>
+    <color name="login_l_press">#e88b1d</color>
+    <color name="login_r_normal">#7abf55</color>
+    <color name="login_r_press">#74b551</color>
+    <color name="fragment_left_bt_txt_bg">#848383</color>
+    <color name="bottom_tab_bg">#eea20e</color>
+
+    <color name="search_detail_bg">#f7b332</color>
+</resources>

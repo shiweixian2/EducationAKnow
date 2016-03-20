@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:out="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ebebeb"
+    tools:context=".main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffac0b"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <com.bestcode95.educationaknow.utils.view.MyEditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/main_edit_bg"
+            android:drawableEnd="@drawable/main_delete_icon"
+            android:drawableLeft="@drawable/main_search_icon"
+            android:drawableRight="@drawable/main_delete_icon"
+            android:drawableStart="@drawable/main_search_icon"
+            android:hint="@string/main_search_hint_text"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragment_pages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bottom_tab_bg"
+        android:orientation="horizontal">
+
+        <com.bestcode95.educationaknow.utils.view.BottomTab
+            android:id="@+id/bottom_tab1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+            out:colors="@color/white"
+            out:icons="@drawable/bottom_tab_left_icon_selected"
+            />
+
+        <com.bestcode95.educationaknow.utils.view.BottomTab
+            android:id="@+id/bottom_tab2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+            out:colors="@color/white"
+            out:icons="@drawable/bottom_tab_center_icon_normal" />
+
+        <com.bestcode95.educationaknow.utils.view.BottomTab
+            android:id="@+id/bottom_tab3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+            out:colors="@color/white"
+            out:icons="@drawable/bottom_tab_right_icon_normal" />
+    </LinearLayout>
+</LinearLayout>

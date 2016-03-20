@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="105dp"
+    android:layout_gravity="center"
+    android:background="@drawable/chose_school_bg"
+    android:gravity="center"
+    android:minWidth="200dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/bottom_price_edit"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/chose_price_edit_bg"
+            android:gravity="center"
+            android:hint="最低价格"
+            android:inputType="number" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/chose_price_line" />
+
+        <EditText
+            android:id="@+id/top_price_edit"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/chose_price_edit_bg"
+            android:gravity="center"
+            android:hint="最高价格"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="3dp"
+        android:id="@+id/my_price_sure_bt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/chose_school_name_sure_bt_bg"
+        android:text="确  定"
+        android:textColor="@color/login_bg"
+        android:textSize="25sp" />
+</LinearLayout>

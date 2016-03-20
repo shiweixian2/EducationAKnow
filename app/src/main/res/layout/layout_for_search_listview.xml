@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:minHeight="60dp"
+    >
+    <TextView
+        android:id="@+id/list_item_left"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/search_list_icon_bg"
+        android:gravity="center"
+        android:text="@string/main_search_position_icon_text"
+        android:layout_centerVertical="true"
+        android:textColor="#ffac0b"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/list_item_center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:hint="济 南"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layerType="software"
+        android:scaleType="fitCenter"
+        android:src="@drawable/main_search_right_icon" />
+
+</RelativeLayout>

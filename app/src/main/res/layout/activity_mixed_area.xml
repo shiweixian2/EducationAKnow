@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffac0b"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/mixed_area_back_bt"
+            android:layout_width="25dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/back_bt_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="综合区"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:id="@+id/detail_bt"
+            android:layout_width="25dp"
+            android:layout_height="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/detail_bt_icon" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/mixed_area_school_out_bt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mixed_area_school_out_bg">
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mixed_area_school_out_icon"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/mixed_area_edu_bt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mixed_area_edu_bg">
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mixed_area_edu_icon"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/mixed_area_discount_bt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mixed_area_discount_bg">
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mixed_area_discount_icon"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>
